@@ -1,0 +1,128 @@
+.edge-swipe-zone {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  z-index: 999;
+}
+
+.edge-panel-overlay {
+  position: fixed;
+  inset: 0;
+  background: black;
+  z-index: 1000;
+}
+
+.edge-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 280px;
+  background: var(--color-bg-card);
+  border-right: 1px solid var(--color-border);
+  z-index: 1001;
+  display: flex;
+}
+
+.edge-panel-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--safe-area-top) 0 var(--safe-area-bottom) var(--safe-area-left);
+}
+
+.edge-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.edge-panel-header h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.edge-panel-close {
+  background: transparent;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  line-height: 1;
+}
+
+.edge-panel-close:hover {
+  color: var(--color-text);
+}
+
+.edge-panel-body {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.edge-panel-description {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.edge-panel-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.edge-panel-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  transition: all 0.2s;
+}
+
+.edge-panel-nav-item:hover {
+  background: var(--color-bg-elevated);
+  color: var(--color-text);
+}
+
+.edge-panel-nav-item.active {
+  background: var(--color-primary);
+  color: white;
+}
+
+.nav-icon {
+  font-size: 1.125rem;
+}
+
+.edge-panel-footer {
+  padding: 1rem;
+  border-top: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.edge-panel-footer p {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  opacity: 0.7;
+}
+
+.edge-panel-handle {
+  width: 4px;
+  background: var(--color-border);
+  cursor: ew-resize;
+}
+
+.edge-panel-handle:hover {
+  background: var(--color-primary);
+}

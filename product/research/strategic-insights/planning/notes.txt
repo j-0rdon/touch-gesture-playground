@@ -1,0 +1,16 @@
+# Draft Insights from Another Claude - TO REVIEW
+
+1. Information degradation is the core failure mode
+Across struggling moments, the same pattern: information exists but doesn't travel. Guest notes written but not read. VIP status known but not surfaced. Party size changed but update lost. The product isn't really a "reservation system" — it's an information delivery system that happens to manage bookings.
+2. The handoff is the product
+Reservationist → Host is the critical seam. If that handoff fails, all the careful book-building is wasted. Yet most systems treat this as implicit. There might be a distinct product opportunity in making that handoff explicit and excellent.
+3. Host as leading indicator
+If Host friction predicts guest experience, then Host sentiment/friction metrics could be a proxy for guest experience quality. This reframes analytics: don't just track covers and revenue — track Host experience as a leading indicator.
+4. Competitors optimise for the wrong user
+OpenTable, Resy, SevenRooms — they optimise for Reservationist (book-building), GM (reporting), or Guest (discovery/booking). But the Host — the highest-frequency, highest-stakes user — is underserved. "Win the Host" isn't just internal prioritisation; it could be market positioning.
+5. Recognition is a differentiator
+"Feel known" appears across Guest: Returning, GM jobs, and Server needs. But it requires context to flow seamlessly. Most systems store guest data; few surface it at the right moment. This is the gap between CRM and hospitality.
+6. The real product is cascade interruption
+Problems cascade: late arrival → rushed seating → overwhelmed server → kitchen spike → poor guest experience. A strategic frame could be: predict and interrupt cascades before they reach the guest. This shifts from reactive tooling to proactive orchestration.
+7. Recovery as design principle
+Things will go wrong. The question is whether staff can recover gracefully. This is underexplored in the current doc — we have "struggling moments" but not "recovery moments." Could be worth adding.
